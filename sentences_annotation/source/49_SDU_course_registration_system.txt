@@ -1,0 +1,4 @@
+The main goal of the course registration system is to have students registering to their courses. Before the registration period starts, course responsibles must update information and publish course.
+The system must have the students unregistered to courses when the course is published. The student can register to a course when registration starts. The system must confirm student registration through an email when students register. The system must register new students to a course when the registration period starts. The new students can verify their automatic registration via the link provided in an email.
+A student can unregister a registered course within the registration period.
+The administration must lock the course for registration once the registration period ends.

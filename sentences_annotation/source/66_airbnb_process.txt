@@ -1,0 +1,29 @@
+
+Listing Creation and Management:
+Hosts must accurately represent their properties through detailed listings, including photos, descriptions, and amenities.
+Hosts are responsible for updating their availability calendars regularly.
+Hosts must comply with Airbnb’s content policies regarding listing descriptions and images. 
+
+Booking Process
+Guests can request to book a property for specific dates.
+The platform must check the availability of the listing in real-time and facilitate the booking process.
+Guests must provide accurate information when making a booking request.
+
+Communication
+ Hosts and guests communicate directly through the Airbnb platform’s messaging system.
+ Real-time notifications are sent to ensure prompt responses to inquiries, requests, and messages.
+ Hosts and guests are expected to communicate respectfully and professionally.
+
+Payment Processing
+The platform handles payment transactions securely between hosts and guests.
+Hosts receive payment for bookings after guests check in, minus any applicable fees.
+Guests must provide valid payment information and authorise the transaction.
+
+Review System
+After a stay, both hosts and guests can leave reviews for each other.
+Real-time notifications are sent when a review is submitted, encouraging timely feedback.
+Hosts and guests can respond to reviews to address any concerns or issues raised.
+
+Customer Support
+Airbnb provides 24/7 assistance via phone, email, or chat to address any issues, inquiries, or disputes.
+The platform aims to resolve customer inquiries and complaints promptly and satisfactorily.

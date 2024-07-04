@@ -1,0 +1,21 @@
+”ABC” online platform is for restaurant for their ingredient supply and order. 
+
+Restaurant owners must be able to search for specific ingredients or browse categories at any time.
+
+Upon finding relevant ingredients, restaurant owners must have the capability to compare prices and offerings from different vendors.
+
+Information regarding ingredient freshness and supplier stock levels must be provided to the restaurant owner for any listed product, ensuring that purchasing decisions are made with the most current data available.
+
+Only suppliers with a proven track record for quality and customer satisfaction are allowed to list their products on the platform, which mandates a vetting process for suppliers before their inclusion. 
+
+The process of adding ingredients to a virtual shopping cart and proceeding through checkout is streamlined,suggesting an underlying order management system that facilitates these actions efficiently.
+
+The product database must contain accurate and up-todate information on ingredients, including specifications, pricing, and potential allergen information.
+
+The system must be capable of pushing personalized deals to restaurant owners based on their specific needs and past purchasing behavior. 
+
+The vendors offers must be submitted, registered and approved according to system guidelines.
+
+The Orders must be confirmed within a designated time-frame and delivered within a predetermined window.
+
+The system must reflect changes in stock levels in real-time and issue alerts regarding new shipments or significant updates.

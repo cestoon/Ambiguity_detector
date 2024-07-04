@@ -1,0 +1,15 @@
+Customer
+The customer can find relevant and available items. The items the customer wishes to buy must be added and saved to the cart of the online store.
+The customer can freely add/remove as many items as needed to the cart (limited by the stock of the vendor). Once the customer is done with item selection they can proceed to checkout in order to execute payment (however,they may return and browse/add products to cart before the payment is executed). The customer must provide correct payment and shipping data at checkout to be eligible for payment. If the data is of the right format, the customer can proceed to payment, and has to verify his identity with his provided bank details. If the payment could not be executed by the bank, an error is displayed and the customer must re-enter their payment details or abort checkout. If the payment is successful, the customer has to be issued a receipt and confirmation of payment.
+
+Vendor (company selling products)
+The vendor has to have access to the website and back-end so that they may edit their contents and logic, therefore the vendor has to maintain the availability of the service. The vendor has to receive an order and payment when their stock is purchased.
+
+Website (front-end of online store)
+The website has to be hosted on a server and be accessible from the public internet. It has to provide a responsive GUI, supporting all possible actions that the customer is allowed to take, with the correct criteria (swap between pages, show products, display product information, add product to cart, delete product from cart, go to checkout, verify format of shipping/payment information). The server hosting the website has to have a steady connection to the database so that it may execute CRUD (create, read, update, delete) operations with an acceptable latency and no connection errors on demand.
+
+Back-end
+The back-end hosts a database, which stores and updates information according to the requests received from the website. If an error occurs with a request it is sent to the website and the information in the database is not changed. The database is secured via authentication and encryption so the information it contains cannot be compromised. It has an authenticated (secure) and steady connection with the website. It can make authenticated calls to the banks API for verifying payment information and executing the payments.
+
+Bank (payment verification)
+The bank has to handle all open payment requests and close them eventually. Payment requests may be accepted or rejected, based on several criteria. An open payment request may be accepted if customer verification is successful, there are enough funds on the customer’s bank account, and there are no network connection errors. If the customer can not verify themselves, there are not enough funds, or the bank is unable to complete the transaction due to connection errors, the request is rejected.

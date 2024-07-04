@@ -1,0 +1,21 @@
+Booking Initiation: The booking process can be initiated by the customer.
+Once the booking is initiated, the hotel must check the room availability.
+
+Room Selection: The hotel must provide available room options to the customer. The customer can select a room from the available options. 
+The room selection activity is dependent on the availability of rooms.
+
+Check-In Process: The check-in process can be initiated by the customer. Before the check-in process can be completed, the hotel must verify the customer’s ID. 
+The customer’s information is stored after the ID verification is complete. Once the check-in process is completed, the customer’s key is retrieved.
+
+Check-Out Process: The check-out process can be initiated by the customer.
+Before the check-out process can be completed, the customer must provide the payment method.
+The hotel must verify the payment before the check-out process can be completed. Once the payment is verified, the check-out process is considered complete.
+
+Information Retrieval: The hotel must retrieve the customer’s information before the check-out process can be initiated.
+The retrieval of customer information is triggered by the initiation of the check-out process.
+
+Payment Processing: The payment method must be provided by the customer during the check-out process.
+The hotel must verify the payment before the check-out process can be completed. The payment verification is dependent
+on the provision of the payment method by the customer.
+
+Booking Confirmation: The hotel must confirm the booking once the room is selected by the customer. The booking confirmation is triggered by the selection of a room.

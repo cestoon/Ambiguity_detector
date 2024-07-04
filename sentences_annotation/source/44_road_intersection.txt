@@ -1,0 +1,13 @@
+General rules of the system:
+Agents may pass only when receiving a green light, specific to their mode of transport.
+Red lights indicate a complete stop for all agents except emergency vehicles operating with active emergency signals.
+Pedestrians have priority over all non-emergency vehicles at pedestrian crossings when the pedestrian light is green.
+Cyclists must use hand signals to indicate turning intentions, ensuring clear communication with other agents.
+Drivers are required to use vehicle signals for turns and lane changes to communicate intentions.
+Driver must give priority to pedestrians and cyclists at crossings, while following the driver signals of the intersection.
+Pedestrians crossing the road must activate the crosswalk button and wait for the green pedestrian signal before crossing.
+
+Specific agent rules of the system:
+Cyclists speeding to pass through intersections must use the left side of the bike lane and yield to slower-moving cyclists.
+Drivers turning right must ensure the perpendicular traffic light is red and all pedestrians and cyclists have safely crossed before proceeding.
+Pedestrians waiting to cross the road must press the crosswalk button and wait for the signal to change to green before proceeding.

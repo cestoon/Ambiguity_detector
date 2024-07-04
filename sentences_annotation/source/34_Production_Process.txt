@@ -1,0 +1,37 @@
+The production starts of with a warehouse sending an inquiry for more product. This then
+starts the production.
+The production has three phases, the preproduction, the production itself and the control of
+the product. The pre production mainly concerns following the required legislation in order to
+be allowed to produce the beverage as well as making sure all the machinery is fully
+functioning and that all the ingredients are available. This is mainly done by the HQ.The second step is the actual
+production of the Syrup/Liquid, Bottles,the bottling of the liquid and finally the packaging.
+The last step is the shipping process in which the warehouse will receive the shipment they
+need (this part also have ties to the beginning of the process as the warehouse sends an
+inquiry for more product).
+In the first phase the company must make sure that their standards follow the ISO 9001 and
+the ISO 22000, the company's own Quality and Food Safety policy and lastly the global standards of the Coca Cola company. This involves electronic bottle inspection equipment
+on all refillable bottling production lines to identify and reject even the tiniest irregularity in
+their beverages. Furthermore, the process must not violate any legislation when it comes to
+production of food or beverages
+In the 2nd phase the production process starts with the production team making sure all ingredients are available,
+then the machinery must maintained to reduce the risk of contamination or breakdowns.
+The ingredients must also inspected before production to make sure that there are no
+irregularities, if an irregularity presents itself, this batch of ingredients is declined and not
+used. The water used in the production goes through special treatments to ensure the
+microbiological safety. The water must have the correct concentration of naturally dissolved
+salts. The syrup is prepared in special tanks by first firstly dissolving the right amount of
+sugar in the treated water, and then afterwards filtering this water to remove any possible
+impurities. Only after this the simple syrup is mixed with the Coca Cola concentrate to make
+up the liquid in its final form. After this a flash pasteurisation thermal process will then ensure
+that even the most sensitive products will not alter in their sensory characteristic during their
+shelf life.
+The bottle production goes through the same basic pre steps as the liquid, however in this
+process it is paramount that the company follows legislation regarding usage of plastic and
+cleanliness of the product as it would otherwise be illegal to use.
+The filling and packaging process starts with the treated and cooled water being mixed with
+the final syrup and then the carbon dioxide is added. The drink is the filled into the bottles
+and ready to be packaged. The bottles must be perfectly clean, hermetically sealed, labeled,
+coded and tested. This is done by machines in a modern automatic plant. The glass bottles
+are then placed in boxes while the plastic bottles and canned products go into various
+multipacks. The Product is then shipped to the warehouse where it was intended to go from
+the start.

@@ -1,0 +1,5 @@
+When the shop manager starts ordering, he has to select an item, and then checks the stock. He then enters the amount of product that is needed for the following days. He must repeat this process for all goods which the shop sells. Once everything has been ordered, the shop manager must confirm the order. After confirming the order, he may edit, cancel, or send the order to the shop supply manager.
+
+The supply manager collects orders from shops. If the supply manager does not receive an order list from a shop by the designated deadline, the supply manager will contact the shop manager in order to obtain the order list.
+
+The supply manager must then prepare a list of goods that are already available for the warehouse to deliver to the shops. The supply manager then dispatches this list over to the warehouse manager. The supply manager also contacts suppliers and provides quantity of goods that are needed for the warehouse. The supply manager receives the ETA, finalizes the order, and then sends list of goods and ETA to the warehouse.

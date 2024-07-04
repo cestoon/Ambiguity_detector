@@ -1,0 +1,13 @@
+Menu Provision Rule: A customer must be presented with a menu upon being seated or expressing a desire for take-away. This rule initiates both dine-in and take-away service scenarios.
+
+Ordering Rule: After reviewing the menu, the customer’s selection is taken by waitstaff and must be entered into the system and notifying the kitchen.
+
+Meal Preparation and Service Rule: For dine-in, the kitchen’s preparation of the meal must precede service at the customer’s table. For take-away, the prepared meal must be packaged according to take-away standards.
+
+Payment Rule: Upon completion of their meal or receipt of their take-away order, customers must request and be provided a bill. Payment is collected and confirmed via receipt before the customer’s departure.
+
+Customer Departure Rule: In the completion of the service cycle, cus- tomers are free to leave the restaurant once the payment has been made and receipt issued for dine-in, or once the take-away order has been received.
+
+Forbidden Action Rule: For dine-in, meals must not be served before an order is placed, and for take-away, food must not be packaged as dine-in. Customers must not leave without completing the payment process.
+
+Neutral Action Rule: If a customer departs without a receipt following payment for dine-in, or if a customer selects take-away without using a menu, the service cycle is considered incomplete but not violated.

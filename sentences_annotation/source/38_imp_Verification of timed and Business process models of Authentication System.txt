@@ -1,0 +1,33 @@
+The objective of this section is to define the formal process for the user authentication system, taking into consideration the following topics: authentication, management, and administration within the system.
+
+User Functionalities:
+Registration process of the guest user:
+Guest user is able to register by filling in all the necessary fields such as: date of birth, email address and password.
+The system then validates the uniqueness of the email address and checks whether the password is strong enough as well as ensuring the user is over 14 years old.
+After successful registration, the user can gain access to the service by logging in.
+
+Authentication process of a registered user:
+Registered users authenticate themselves by providing the account details: email address and password.
+The system verifies the credentials within its database of sensitive data and authenticates the user only if the check is successful.
+User is now authenticated and can access the service.
+
+Profile Management:
+Authenticated users can change their profile information such as contact details and password.
+The system validates and updates the user’s changes within the profile.
+Users can request the deletion of their account from the system.
+Upon confirmation, the user account and associated data are permanently removed from the system.
+
+Administrative Functionalities:
+Admin Access
+Admin users are privileged to perform administrative functions for all system users.
+Admin access is granted based on predefined roles and its permissions.
+
+User Management:
+Admin users can view, create, update, and delete user accounts.
+user account deletion performed upon validating the procedures.
+Admins can initiate the deletion of a user account from the system if necessary.
+Upon successful deletion of the account, its associated data are permanently removed from the system.
+
+Supplementary Security Controls:
+Two-Factor Authentication (2FA):
+Authenticated users can log in or update their profile details using Two factor authentication (2FA) which adds an additional layer of protection beyond passwords.

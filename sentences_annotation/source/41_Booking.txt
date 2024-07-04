@@ -1,0 +1,13 @@
+The process description narrative is to be written as declarative, meaning that we should determine a set of rules that describe the process.
+Booking a class:
+A customer must have a valid membership status to be considered a valid customer.
+A valid customer can see the list of existing classes and book an existing class.
+If a valid customer books a class and the class has not reached the maximum limit of attendees, then the system will register the valid customer in the list of attendees. If the limit has been reached, the customer can join the waitlist.
+A valid customer can unbook a booked class only if the time constraint of 4 hours before the class starts is still valid.
+
+Attending a class:
+If a valid customer has a valid class booking, the customer can check in into the fitness center and attend the class.
+
+Instructor creating/updating a class:
+The workflow of an instructor managing a class can be described as follows.
+When an Instructor wants to create a class, then the System will create aclass. If an instructor wants to update a class, then the instructor can find a substitute teacher or decide to cancel a class. When an Instructor decides to cancel a class, then the System will remove the class from the classlist and the System will alert the class participants. When the 4 Hour Deadline has been reached, the Instructor cannot execute any of the further actions. When the Instructor decides to cancel a class, it can no longer update the class’ instructor.

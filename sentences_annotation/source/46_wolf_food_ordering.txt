@@ -1,0 +1,22 @@
+Order Placement by Customer:
+When a customer initiates a food order, the process commences with
+the entry of credentials, followed by the selection of a restaurant and
+desired food items, concluding with the order placement. 
+
+Order Handling Process:
+Upon order receipt, the system proceeds to query both the selected restaurant and courier.
+Once responses are received from both parties, the order is confirmed. 
+
+Restaurant Process:
+Upon receiving a query, the restaurant is obligated to prepare the order and notify the system when it is ready.
+In the event of any issues during preparation, the restaurant must promptly inform the system, reject the order, and notify the customer of the rejection.
+
+Courier Process:
+The courier’s responsibility is to pick up the order and deliver it to the
+specified location based on customer information.
+In case of delivery issues, the courier is mandated to notify the system, reject the order, and notify the customer accordingly. 
+
+Payment Process:
+Upon successful delivery, the customer is prompted to pay for the order.
+Wolt, upon receiving the payment, must distribute it to the respective entities: the restaurant and the courier.
+The order remains marked as completed only after both entities confirm receipt of their respective payments.

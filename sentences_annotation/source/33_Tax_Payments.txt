@@ -1,0 +1,21 @@
+Stea 1 ​Login to bank and print incoming payments.
+First, the AR accountant must log in the company bank account and print an overview of all incoming payments. The overview includes the name of the customer and how much they have paid and usually has multiple different payments from different customers. Each payment has an expanded details sheet that is downloaded and saved on the common drive at Milestone, but not printed as only the overview needs to be kept as a paper copy.
+
+Step 2 Assign finance document number.
+Each payment receives a finance document number, which will be the document number of the booking in Navision. AR accountant assigns the number by stamping the paper copy of the overview with a stamp from their office that increases the number by one every time it is used.
+
+Step 3 ​Find customer number.
+In order to find the customer in Navision the AR accountant must look up the customer name in the Navision database and get the customer number. This is needed because the booking of the payment cannot accept the name of the customer and needs the customer number from the Navision database.
+
+Step 4 ​Remittance advice.
+The last piece of data needed to complete the booking is knowing what each customer is paying for. Milestone receives payments in bulk from each customer in order to save on bank and processing fees. Each payment can settle any number of open invoices. As the bank statement only contains the name of the customer and amount paid, it is up to the customer to send what is called remittance advice to Milestone. This details exactly which invoices are being paid with the amount sent in the payment. If remittance advice has been received, then the process continues. If it has not been received, then the following steps happen.
+(a) ​Enter payment without invoice data.
+Without the remittance advice the AR accountant must still book the payment on the day that it came in, but no invoices will be settled. This is done to ensure that the amount of money in the bank, and the amount of money tracked in the general journal remains the same. After remittance advice is received, this entry is edited to include which invoices are being settled.
+(b) ​Contact customer.
+After all payments have been booked for the day, then the AR accountant sends reminders to the customers who have not sent in remittance advice.
+
+Step 5 ​Match payments to customer open invoices.
+With all the data needed to book the payments gathered the AR accountant creates and entry in the general journal for a payment and includes the amount paid, customer number, document number, and which invoices are being settled.
+
+Step 6 ​Fees and taxes deducted.
+Many payments come from other countries and thus can incur different fees and taxes, the most common being exchange rate differences between the day of the payment and the day that it is received. All these fees and taxes are paid by Milestone. The procedure behind the fees and taxes is not well documented at Milestone and we have not been able to observe cases other than the exchange rate differences mentioned above.

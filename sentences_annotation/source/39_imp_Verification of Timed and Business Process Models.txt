@@ -1,0 +1,19 @@
+We transformed our process flow into a set of declarative business rules, they go as follows.
+Stakeholder Dependencies:
+Rule 1: IF a Customer is present, THEN a Waiter MUST be available to provide service.
+Rule 2: IF an order is placed, THEN a Chef MUST be available to prepare the food.
+Rule 3: IF a Customer has completed their meal, THEN a Cashier MUST be available to process payment.
+Rule 4: IF any stakeholder group (Customer, Waiter, Chef, Cashier) is understaffed, THEN the Manager MUST take action to address the shortage.
+Service and Food Quality:
+Rule 5: IF an order is placed, THEN the Chef MUST prepare the food within a specified maximum time limit.
+Rule 6: IF a menu item is ordered, THEN the kitchen MUST have all necessary ingredients in stock.
+Rule 7: IF a menu item has a preparation time exceeding a defined threshold,
+THEN the Customer MUST be informed before ordering.
+Customer Experience:
+Rule 8: IF a Customer requests information or assistance, THEN a Waiter MUST provide a timely response.
+Rule 9: IF a Customer provides feedback, THEN the Manager MUST review and consider the feedback for potential process improvements.
+Workflow:
+Rule 10: IF a Waiter communicates an order to the kitchen, THEN the Chef MUST add the order to the preparation queue.
+Rule 11: IF a Chef completes a food order, THEN the Waiter MUST be notified.
+Rule 12: IF a Customer’s meal is complete, THEN the Waiter MUST provide the bill to the Cashier.
+Rule 13: IF a bill is presented to the Cashier, THEN the Cashier MUST process the payment and provide a receipt to the Customer.

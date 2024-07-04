@@ -1,0 +1,14 @@
+The process begins when a vehicle approaches a toll booth. The customer must choose between an automatic payment or manual payment of the toll. This choice is exclusive, and the customer can only enter an automatic payment lane or a manual payment lane. This will result in one of the two situations.
+
+If the customer enters the automatic lane, then either their licence plate or the RFID tag (Bizz Brick) must be scanned by the automated system in the tollbooth. The system must either read the licence plate or the Bizz brick. Once the payment option has been scanned, a payment request should be generated against the customer’s BroBizz subscription. This can generate two situations:
+
+The payment is verified and accepted by the BroBizz service, and the toll booth receives a notification. Upon confirmation, the toll booth barrier should be opened, and it should stay open until the customer’s vehicle has safely crossed the barrier.
+Once the vehicle has passed a threshold, the barrier must close afterwards. There is a strong need for timed behaviour at this stage of the process, as we do not wish to allow vehicles whose payment hasn’t been processed to cross the barrier in tow of the verified vehicles. We shall discuss the timed constraints of our business process further in section 2.
+
+However, if the payment is rejected, the customer can attempt to retry using either the same service or choose a different method of payment (such as the Bizz brick, or moving to one of the manual lanes).
+
+On the other hand, if the customer enters the manual lane, which is the manual payment lane, they must pay with either cash or a credit card. In any of these scenarios, the payment needs to be collected and validated by
+the tollbooth operator. This generates two situations:
+
+If the payment is not validated, then the customer can try to pay again with either the same or a different method.
+Having the payment validated, the tollbooth operator can open the barrier and allow the vehicle to cross the gate.

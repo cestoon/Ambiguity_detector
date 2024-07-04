@@ -1,0 +1,16 @@
+
+Restaurant Management System: The system description, as from the previous assignment: Enables restaurants to manage profiles, menus, and availability status on the Wolt platform. It facilitates order processing, notification management, and performance tracking.
+Menu Update Latency: Changes to the menu (additions, deletions, or modifications) should be reflected on the platform shortly after submission to ensure current availability is accurately represented.
+Order Acknowledgment Time: Restaurants must acknowledge new orders to confirm they have begun preparation and to keep the customer informed of the order status.
+Availability Status Update: Changes to restaurant availability status (open or closed) must be processed and displayed on the platform to prevent customer confusion or order placement errors.
+Courier Management System: The system description, as from the previous assignment: Onboards, schedules, and dispatches delivery orders to local couriers. It tracks courier locations, optimizes delivery routes, and provides communication tools for couriers.
+Courier Dispatch Time: Couriers should be dispatched to pick up an order shortly before preparation completion to minimize waiting time and ensure timely delivery.
+
+Location Update Interval: Courier location updates should be transmitted to the platform for accurate tracking and route optimization.
+Route Optimization Processing: Route optimization calculations should be use the couriers current location, updating to ensure efficient delivery paths are identified immediately.
+Order Processing System: The system description, as from the previous assignment: Coordinates the entire order lifecycle, from placement to delivery. It handles order routing, confirmation, transaction and tracking, ensuring timely and accurate delivery of food items. 
+
+The timed behavior can be divided into three categories:
+Order Placement to Confirmation: The time from order placement by the customer to confirmation by the restaurant should be within 5 minutes to ensure customers are quickly informed of their order status.
+Delivery Time Estimation Accuracy: The estimated delivery time provided to the customer at the time of order placement should be close to the actual delivery time.
+Order Tracking Update Frequency: Customers should receive updates on their order status (e.g., preparing, ready for pickup, en route) to keep them informed throughout the delivery process.

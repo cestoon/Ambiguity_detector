@@ -1,0 +1,18 @@
+The process revolves around a customer going shopping at a supermarket. It begins with the customer entering the store and is hereby presented by a choice. Selecting the pursued groceries or finding a stock clerk to help them find what they are looking for. If they’ve been helped by a clerk, they can proceed to select their grocery items.
+Next, they join the line to wait for their turn at the checkout. When they reach the front of the line, they place their items on the band to be scanned. After scanning, they are prompted to make a payment. This payment can first be attempted by card. The system attempts to process the transaction.
+This can either be successful or unsuccessful. If successful, the customer is asked if they want a receipt. If they accept it or deny it the transaction is completed either way. They can from here leave the supermarket with their groceries. However, if the card payment is denied, they have the option to pay by cash instead. Once again, they are asked if they want a receipt. They can from here leave the supermarket with their groceries.
+Alternatively, if the customer is unable to pay by cash, they have the option to terminate the transaction altogether. In this case, they can leave the supermarket without making a purchase and without their groceries.
+For this assignment we are going to focus on the following business rules:
+A stock clerk helps customers only when the stock clerk is not restocking.
+A stock clerk gets items from storage before restocking shelves.
+A stock clerk repeats getting items, restocking, and helping customers.
+A cashier waits for items on the belt before scanning.
+After scanning, the cashier asks for payment.
+The cashier offers a receipt after the customer has completed payment.
+A bank accepts or denies card payments. If the transaction takes over 30 seconds it is denied.
+A customer picks items and can ask a stock clerk for help, many times.
+A customer queues and places items on the belt.
+Customers try to pay by card. If the card fails, they can use cash or cancel
+the transaction.
+After paying, a customer chooses to take or refuse a receipt.
+The customer leaves the supermarket after payment.

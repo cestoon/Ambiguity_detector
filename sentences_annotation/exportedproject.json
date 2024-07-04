@@ -1,0 +1,1768 @@
+{
+  "name" : "Sentences_Annotation_v2",
+  "slug" : null,
+  "description" : "second edition.\r\n\r\n1. delete all uncertain label\r\n2. correct all controversial sentence with new standard",
+  "mode" : "ANNOTATION",
+  "version" : 1,
+  "source_documents" : [ {
+    "name" : "10_Design_approval.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1714925096117,
+    "updated" : 1715584665054
+  }, {
+    "name" : "11_Hiring_Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096126,
+    "updated" : 1715585580167
+  }, {
+    "name" : "12_Translation_Order_Handling_Process_(imperative).txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096139,
+    "updated" : 1715586805174
+  }, {
+    "name" : "13_Translation_Order_Handling_Process_(declarative).txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096152,
+    "updated" : 1715587525183
+  }, {
+    "name" : "14_Long_term_renting_process_(imperative).txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096162,
+    "updated" : 1715588945188
+  }, {
+    "name" : "15_Long_term_renting_process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096177,
+    "updated" : 1715589890186
+  }, {
+    "name" : "16_Bicycle_Rental_Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096192,
+    "updated" : 1715590365157
+  }, {
+    "name" : "17_Shift_cover_(imperative).txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096208,
+    "updated" : 1715592100149
+  }, {
+    "name" : "18_nan.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096221,
+    "updated" : 1715592950173
+  }, {
+    "name" : "19_Statement_of_Work_(imperative).txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096266,
+    "updated" : 1715602210632
+  }, {
+    "name" : "1_Hospital_Workflow.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714407134047,
+    "updated" : 1715583679222
+  }, {
+    "name" : "20_Statement_of_Work_(declarative).txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096276,
+    "updated" : 1716341302911
+  }, {
+    "name" : "21_Operational_Readiness_Review_(ORR).txt",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1714925096293,
+    "updated" : 1715595540329
+  }, {
+    "name" : "22_Product_quality_control_(imperative).txt",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1714925096303,
+    "updated" : 1716337169734
+  }, {
+    "name" : "23_Product_quality_control_(imperative).txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096314,
+    "updated" : 1716337757914
+  }, {
+    "name" : "24_Collection_and_Test_of_samples.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096324,
+    "updated" : 1716733849619
+  }, {
+    "name" : "25_Procurement_Process_(declarative).txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096336,
+    "updated" : 1716338842896
+  }, {
+    "name" : "26_Restocking_Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096345,
+    "updated" : 1716731873495
+  }, {
+    "name" : "27_Volunteer_Recruitment_Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096353,
+    "updated" : 1716745644732
+  }, {
+    "name" : "28_Pizza_Preparation.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096363,
+    "updated" : 1716743774749
+  }, {
+    "name" : "29_Handling_of_new_orders.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096372,
+    "updated" : 1716745573529
+  }, {
+    "name" : "2_Insurance_Workflow.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925095934,
+    "updated" : 1715583695166
+  }, {
+    "name" : "30_Scheduling_university_visits.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1714925096382,
+    "updated" : 1716744592557
+  }, {
+    "name" : "31_Hiring_delivery_partners.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096391,
+    "updated" : 1716745359740
+  }, {
+    "name" : "32_Food_delivery.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096398,
+    "updated" : 1716746854736
+  }, {
+    "name" : "33_Tax_Payments.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1716749279529,
+    "updated" : 1716763312843
+  }, {
+    "name" : "34_Production_Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1714925096414,
+    "updated" : 1716763315467
+  }, {
+    "name" : "35_Hiring_Process_at_ministry_of_education.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096434,
+    "updated" : 1716764591265
+  }, {
+    "name" : "36_Consolidation_of_Social_Services.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1714925096442,
+    "updated" : 1716764591255
+  }, {
+    "name" : "37_Consolidation_Act_of_Social_Services_paragraph_48.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1714925096449,
+    "updated" : 1716764928741
+  }, {
+    "name" : "38_imp_Verification of timed and Business process models of Authentication System.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1716797418421,
+    "updated" : 1716798128061
+  }, {
+    "name" : "39_imp_Verification of Timed and Business Process Models.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1716798818778,
+    "updated" : 1717445449306
+  }, {
+    "name" : "3_Computer_Repair_Service.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096050,
+    "updated" : 1715584315150
+  }, {
+    "name" : "40_dec_An order-to-pay process in a restaurant.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1716799879125,
+    "updated" : 1716800848108
+  }, {
+    "name" : "41_Booking.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1716801077523,
+    "updated" : 1716813383447
+  }, {
+    "name" : "42_booking.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1716801845566,
+    "updated" : 1716801851042
+  }, {
+    "name" : "43_online shopping system.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1716804344057,
+    "updated" : 1716806613067
+  }, {
+    "name" : "44_road_intersection.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1716806965584,
+    "updated" : 1716806971275
+  }, {
+    "name" : "45_Customer Payment.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717335672294,
+    "updated" : 1717335989803
+  }, {
+    "name" : "46_wolf_food_ordering.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717336570087,
+    "updated" : 1717337409770
+  }, {
+    "name" : "47_Online Platform.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717444772800,
+    "updated" : 1717445222109
+  }, {
+    "name" : "48_CSE Acceptance Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717445436765,
+    "updated" : 1717445912111
+  }, {
+    "name" : "49_SDU_course_registration_system.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1717446303096,
+    "updated" : 1717446308654
+  }, {
+    "name" : "4_Expense_Handling_Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096059,
+    "updated" : 1715584385155
+  }, {
+    "name" : "50_netto_scan_and_go.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717446703432,
+    "updated" : 1717447032125
+  }, {
+    "name" : "51_Restaurant_Service_Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717447099566,
+    "updated" : 1717447742139
+  }, {
+    "name" : "52_Online_Meal_Booking_Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717448039079,
+    "updated" : 1717448827133
+  }, {
+    "name" : "53_McDonald.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717449027387,
+    "updated" : 1717449357141
+  }, {
+    "name" : "54_Food_Delivery_Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717449503927,
+    "updated" : 1717449767143
+  }, {
+    "name" : "55_Pizza_Order_and_Pickup_Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717449907913,
+    "updated" : 1717450212148
+  }, {
+    "name" : "56_Driving License Facilitation Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717450297764,
+    "updated" : 1717450727148
+  }, {
+    "name" : "57_Order_Creation_and_Tracking_Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1717450852196,
+    "updated" : 1717450858348
+  }, {
+    "name" : "58_Code_Contribution_Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717451331224,
+    "updated" : 1717451477125
+  }, {
+    "name" : "59_McDonald_ Ordering Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717451680207,
+    "updated" : 1717452222120
+  }, {
+    "name" : "5_Quality_control_of_medical_products.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096067,
+    "updated" : 1714942924476
+  }, {
+    "name" : "60_ UPPAAL.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717452335923,
+    "updated" : 1717453022135
+  }, {
+    "name" : "61_S-hus_Business_Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717453169984,
+    "updated" : 1717454167136
+  }, {
+    "name" : "62_toll_booth_payment.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717454384955,
+    "updated" : 1717454952148
+  }, {
+    "name" : "63_Course Registration System.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717455075096,
+    "updated" : 1717455302138
+  }, {
+    "name" : "64_Restaurant Reservation and Ordering Process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717455467604,
+    "updated" : 1717455682141
+  }, {
+    "name" : "65_kitchen_ordering_process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717455894303,
+    "updated" : 1717456187154
+  }, {
+    "name" : "66_airbnb_process.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717456429667,
+    "updated" : 1717456782127
+  }, {
+    "name" : "67_Restaurant_Management .txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717457090027,
+    "updated" : 1717457552105
+  }, {
+    "name" : "68_ restaurant.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717457771390,
+    "updated" : 1717458112114
+  }, {
+    "name" : "69_Restaurant_Operations.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717458468232,
+    "updated" : 1717458917113
+  }, {
+    "name" : "6_Webshop_behaviour.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096075,
+    "updated" : 1714944139465
+  }, {
+    "name" : "70_shopping_at_supermarket.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717459060243,
+    "updated" : 1717459542114
+  }, {
+    "name" : "71_food_delivery.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1717459598978,
+    "updated" : 1717459782113
+  }, {
+    "name" : "7_Food_delivery_at_home.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096086,
+    "updated" : 1715584440153
+  }, {
+    "name" : "8_Mikkeller_webshop.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096096,
+    "updated" : 1715584540157
+  }, {
+    "name" : "9_school_visit_scheduling.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_FINISHED",
+    "timestamp" : null,
+    "created" : 1714925096104,
+    "updated" : 1715584625154
+  } ],
+  "annotation_documents" : [ {
+    "name" : "5_Quality_control_of_medical_products.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1714942914073,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1714941364483,
+    "updated" : 1714942918416
+  }, {
+    "name" : "1_Hospital_Workflow.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715583583166,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1714407139907,
+    "updated" : 1715583673570
+  }, {
+    "name" : "2_Insurance_Workflow.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715583689658,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1714936832092,
+    "updated" : 1715583691383
+  }, {
+    "name" : "3_Computer_Repair_Service.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715584305290,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1714938455584,
+    "updated" : 1715584312809
+  }, {
+    "name" : "4_Expense_Handling_Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715584379036,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1714939330388,
+    "updated" : 1715584381384
+  }, {
+    "name" : "7_Food_delivery_at_home.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715584436483,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1714944141089,
+    "updated" : 1715584437837
+  }, {
+    "name" : "8_Mikkeller_webshop.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715584531694,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1714977034654,
+    "updated" : 1715584537748
+  }, {
+    "name" : "9_school_visit_scheduling.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715584637702,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1714978113258,
+    "updated" : 1715584638695
+  }, {
+    "name" : "10_Design_approval.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715584666628,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1714979040139,
+    "updated" : 1715584669838
+  }, {
+    "name" : "11_Hiring_Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715585575638,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1714996299798,
+    "updated" : 1715585577400
+  }, {
+    "name" : "12_Translation_Order_Handling_Process_(imperative).txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715586798752,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1715585731584,
+    "updated" : 1715586800717
+  }, {
+    "name" : "14_Long_term_renting_process_(imperative).txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715588937354,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1715587825662,
+    "updated" : 1715588941096
+  }, {
+    "name" : "15_Long_term_renting_process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715589882615,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1715588973386,
+    "updated" : 1715589887122
+  }, {
+    "name" : "16_Bicycle_Rental_Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715590357306,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1715589903036,
+    "updated" : 1715590360899
+  }, {
+    "name" : "17_Shift_cover_(imperative).txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715592092669,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1715590378604,
+    "updated" : 1715592095774
+  }, {
+    "name" : "18_nan.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715592942165,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1715592116207,
+    "updated" : 1715592943191
+  }, {
+    "name" : "21_Operational_Readiness_Review_(ORR).txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715596068770,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1715595540288,
+    "updated" : 1715596070023
+  }, {
+    "name" : "19_Statement_of_Work_(imperative).txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715602203968,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1715592962804,
+    "updated" : 1715602205663
+  }, {
+    "name" : "22_Product_quality_control_(imperative).txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716337501759,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716336824434,
+    "updated" : 1716337511014
+  }, {
+    "name" : "23_Product_quality_control_(imperative).txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716337749319,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716337072431,
+    "updated" : 1716337753190
+  }, {
+    "name" : "25_Procurement_Process_(declarative).txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716338835173,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716338414790,
+    "updated" : 1716338836369
+  }, {
+    "name" : "20_Statement_of_Work_(declarative).txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716341294941,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1715594318704,
+    "updated" : 1716341296414
+  }, {
+    "name" : "26_Restocking_Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716731866622,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716729642597,
+    "updated" : 1716731867852
+  }, {
+    "name" : "24_Collection_and_Test_of_samples.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716338536592,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716337770404,
+    "updated" : 1716733844912
+  }, {
+    "name" : "28_Pizza_Preparation.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716743741366,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716742734535,
+    "updated" : 1716743770794
+  }, {
+    "name" : "30_Scheduling_university_visits.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716744951950,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716744592530,
+    "updated" : 1716744954374
+  }, {
+    "name" : "31_Hiring_delivery_partners.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716745348299,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716744974573,
+    "updated" : 1716745354789
+  }, {
+    "name" : "29_Handling_of_new_orders.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716745567972,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716743777478,
+    "updated" : 1716745570263
+  }, {
+    "name" : "27_Volunteer_Recruitment_Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716745637687,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716731873417,
+    "updated" : 1716745638739
+  }, {
+    "name" : "32_Food_delivery.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716746848772,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716745440153,
+    "updated" : 1716746851239
+  }, {
+    "name" : "33_Tax_Payments.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716763303553,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716749282398,
+    "updated" : 1716763309450
+  }, {
+    "name" : "34_Production_Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716764079283,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716763315420,
+    "updated" : 1716764081093
+  }, {
+    "name" : "35_Hiring_Process_at_ministry_of_education.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716764585326,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716764088942,
+    "updated" : 1716764586517
+  }, {
+    "name" : "36_Consolidation_of_Social_Services.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716764915302,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716764591221,
+    "updated" : 1716764922725
+  }, {
+    "name" : "37_Consolidation_Act_of_Social_Services_paragraph_48.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716765189463,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716764928674,
+    "updated" : 1716765190907
+  }, {
+    "name" : "6_Webshop_behaviour.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716794149669,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1714942932865,
+    "updated" : 1716794151724
+  }, {
+    "name" : "38_imp_Verification of timed and Business process models of Authentication System.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716798119823,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716797423238,
+    "updated" : 1716798123159
+  }, {
+    "name" : "40_dec_An order-to-pay process in a restaurant.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716800838663,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716799887341,
+    "updated" : 1716800841150
+  }, {
+    "name" : "42_booking.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716804031151,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716801851013,
+    "updated" : 1716804086080
+  }, {
+    "name" : "43_online shopping system.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716806452636,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716804350257,
+    "updated" : 1716806609294
+  }, {
+    "name" : "44_road_intersection.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716807265953,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716806971228,
+    "updated" : 1716807267621
+  }, {
+    "name" : "41_Booking.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716813377782,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716801085635,
+    "updated" : 1716813378779
+  }, {
+    "name" : "45_Customer Payment.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717335986280,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717335701052,
+    "updated" : 1717335987440
+  }, {
+    "name" : "46_wolf_food_ordering.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717337388064,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717336574195,
+    "updated" : 1717337407719
+  }, {
+    "name" : "47_Online Platform.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717445215948,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717444777193,
+    "updated" : 1717445217586
+  }, {
+    "name" : "39_imp_Verification of Timed and Business Process Models.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1716799375341,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1716798822558,
+    "updated" : 1717445445809
+  }, {
+    "name" : "13_Translation_Order_Handling_Process_(declarative).txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1715587517424,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1715586944289,
+    "updated" : 1717445450032
+  }, {
+    "name" : "48_CSE Acceptance Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717445899672,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717445455787,
+    "updated" : 1717445905949
+  }, {
+    "name" : "49_SDU_course_registration_system.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717446560492,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717446308605,
+    "updated" : 1717446561658
+  }, {
+    "name" : "50_netto_scan_and_go.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717447028205,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717446708548,
+    "updated" : 1717447029798
+  }, {
+    "name" : "51_Restaurant_Service_Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717447711600,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717447103760,
+    "updated" : 1717447735983
+  }, {
+    "name" : "52_Online_Meal_Booking_Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717448822289,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717448046533,
+    "updated" : 1717448824020
+  }, {
+    "name" : "53_McDonald.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717449352875,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717449032563,
+    "updated" : 1717449354132
+  }, {
+    "name" : "54_Food_Delivery_Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717449762993,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717449507830,
+    "updated" : 1717449764606
+  }, {
+    "name" : "55_Pizza_Order_and_Pickup_Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717450204310,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717449912230,
+    "updated" : 1717450205778
+  }, {
+    "name" : "56_Driving License Facilitation Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717450661136,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717450302203,
+    "updated" : 1717450724845
+  }, {
+    "name" : "57_Order_Creation_and_Tracking_Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717451179541,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717450858316,
+    "updated" : 1717451180877
+  }, {
+    "name" : "58_Code_Contribution_Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717451471358,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717451339176,
+    "updated" : 1717451472535
+  }, {
+    "name" : "59_McDonald_ Ordering Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717452218011,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717451683936,
+    "updated" : 1717452218844
+  }, {
+    "name" : "60_ UPPAAL.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717453017384,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717452340872,
+    "updated" : 1717453018496
+  }, {
+    "name" : "61_S-hus_Business_Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717454161328,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717453174413,
+    "updated" : 1717454164195
+  }, {
+    "name" : "62_toll_booth_payment.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717454943902,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717454388893,
+    "updated" : 1717454945180
+  }, {
+    "name" : "63_Course Registration System.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717455297628,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717455080329,
+    "updated" : 1717455300022
+  }, {
+    "name" : "64_Restaurant Reservation and Ordering Process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717455674414,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717455471202,
+    "updated" : 1717455675795
+  }, {
+    "name" : "65_kitchen_ordering_process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717456165707,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717455897636,
+    "updated" : 1717456183226
+  }, {
+    "name" : "66_airbnb_process.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717456775328,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717456434574,
+    "updated" : 1717456777399
+  }, {
+    "name" : "67_Restaurant_Management .txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717457547873,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717457094210,
+    "updated" : 1717457549727
+  }, {
+    "name" : "68_ restaurant.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717458107282,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717457775294,
+    "updated" : 1717458108638
+  }, {
+    "name" : "69_Restaurant_Operations.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717458912421,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717458487163,
+    "updated" : 1717458913790
+  }, {
+    "name" : "70_shopping_at_supermarket.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717459532588,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717459064570,
+    "updated" : 1717459536285
+  }, {
+    "name" : "71_food_delivery.txt",
+    "user" : "admin",
+    "state" : "FINISHED",
+    "timestamp" : 1717459776304,
+    "annotatorState" : "FINISHED",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1717459603417,
+    "updated" : 1717459778087
+  } ],
+  "project_permissions" : [ {
+    "level" : "ADMIN",
+    "user" : "admin"
+  }, {
+    "level" : "CURATOR",
+    "user" : "admin"
+  }, {
+    "level" : "USER",
+    "user" : "admin"
+  } ],
+  "tag_sets" : [ {
+    "name" : "Sentence labels",
+    "description" : "Sentence labels",
+    "language" : "en",
+    "tags" : [ {
+      "tag_name" : "T1_false",
+      "tag_description" : null
+    }, {
+      "tag_name" : "T1_true",
+      "tag_description" : null
+    }, {
+      "tag_name" : "T1_uncertain",
+      "tag_description" : null
+    }, {
+      "tag_name" : "T2_false",
+      "tag_description" : null
+    }, {
+      "tag_name" : "T2_true",
+      "tag_description" : null
+    }, {
+      "tag_name" : "T2_uncertain",
+      "tag_description" : null
+    }, {
+      "tag_name" : "T3_false",
+      "tag_description" : null
+    }, {
+      "tag_name" : "T3_true",
+      "tag_description" : null
+    }, {
+      "tag_name" : "T3_uncertain",
+      "tag_description" : null
+    }, {
+      "tag_name" : "T4_false",
+      "tag_description" : null
+    }, {
+      "tag_name" : "T4_true",
+      "tag_description" : null
+    }, {
+      "tag_name" : "T4_uncertain",
+      "tag_description" : null
+    } ],
+    "create_tag" : false
+  } ],
+  "layers" : [ {
+    "name" : "webanno.custom.Tag",
+    "features" : [ {
+      "name" : "Num",
+      "tag_set" : null,
+      "uiName" : "Num",
+      "type" : "uima.cas.Integer",
+      "enabled" : true,
+      "visible" : true,
+      "include_in_hover" : false,
+      "required" : true,
+      "remember" : false,
+      "hideUnconstraintFeature" : false,
+      "description" : "number of ambiguities in a sentence",
+      "project_name" : "Sentences_Annotation_v2",
+      "multi_value_mode" : "NONE",
+      "link_mode" : "NONE",
+      "link_type_name" : null,
+      "link_type_role_feature_name" : null,
+      "link_type_target_feature_name" : null,
+      "traits" : null,
+      "curatable" : true,
+      "rank" : 0
+    } ],
+    "uiName" : "Ambiguity_Num",
+    "type" : "span",
+    "description" : null,
+    "enabled" : true,
+    "built_in" : false,
+    "readonly" : false,
+    "attach_type" : null,
+    "attach_feature" : null,
+    "allow_stacking" : true,
+    "cross_sentence" : false,
+    "show_hover" : true,
+    "anchoring_mode" : "SENTENCES",
+    "overlap_mode" : "STACKING_ONLY",
+    "validation_mode" : "ALWAYS",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : false,
+    "project_name" : "Sentences_Annotation_v2",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : "{\"coloringRules\":{\"rules\":[]}}"
+  }, {
+    "name" : "webanno.custom.AmbiguityTag",
+    "features" : [ {
+      "name" : "TS",
+      "tag_set" : {
+        "name" : "Sentence labels",
+        "description" : null,
+        "language" : null,
+        "tags" : [ ],
+        "create_tag" : false
+      },
+      "uiName" : "TS",
+      "type" : "uima.cas.StringArray",
+      "enabled" : true,
+      "visible" : true,
+      "include_in_hover" : false,
+      "required" : false,
+      "remember" : false,
+      "hideUnconstraintFeature" : false,
+      "description" : null,
+      "project_name" : "Sentences_Annotation_v2",
+      "multi_value_mode" : "ARRAY",
+      "link_mode" : "NONE",
+      "link_type_name" : null,
+      "link_type_role_feature_name" : null,
+      "link_type_target_feature_name" : null,
+      "traits" : "{}",
+      "curatable" : true,
+      "rank" : 0
+    } ],
+    "uiName" : "Ambiguity_Type",
+    "type" : "span",
+    "description" : "Ambiguity Tag",
+    "enabled" : true,
+    "built_in" : false,
+    "readonly" : false,
+    "attach_type" : null,
+    "attach_feature" : null,
+    "allow_stacking" : true,
+    "cross_sentence" : false,
+    "show_hover" : true,
+    "anchoring_mode" : "SENTENCES",
+    "overlap_mode" : "STACKING_ONLY",
+    "validation_mode" : "ALWAYS",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : false,
+    "project_name" : "Sentences_Annotation_v2",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : "{\"coloringRules\":{\"rules\":[]}}"
+  }, {
+    "name" : "webanno.custom.Reason",
+    "features" : [ {
+      "name" : "reason",
+      "tag_set" : null,
+      "uiName" : "reason",
+      "type" : "uima.cas.String",
+      "enabled" : true,
+      "visible" : true,
+      "include_in_hover" : false,
+      "required" : false,
+      "remember" : false,
+      "hideUnconstraintFeature" : false,
+      "description" : null,
+      "project_name" : "Sentences_Annotation_v2",
+      "multi_value_mode" : "NONE",
+      "link_mode" : "NONE",
+      "link_type_name" : null,
+      "link_type_role_feature_name" : null,
+      "link_type_target_feature_name" : null,
+      "traits" : "{\"multipleRows\":false,\"dynamicSize\":false,\"collapsedRows\":1,\"expandedRows\":1,\"editorType\":\"AUTO\",\"keyBindings\":[]}",
+      "curatable" : true,
+      "rank" : 0
+    } ],
+    "uiName" : "Reason",
+    "type" : "span",
+    "description" : "Reasons",
+    "enabled" : true,
+    "built_in" : false,
+    "readonly" : false,
+    "attach_type" : null,
+    "attach_feature" : null,
+    "allow_stacking" : true,
+    "cross_sentence" : false,
+    "show_hover" : true,
+    "anchoring_mode" : "SENTENCES",
+    "overlap_mode" : "STACKING_ONLY",
+    "validation_mode" : "ALWAYS",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : false,
+    "project_name" : "Sentences_Annotation_v2",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : "{\"coloringRules\":{\"rules\":[]}}"
+  }, {
+    "name" : "custom.SentenceLabel",
+    "features" : [ {
+      "name" : "label",
+      "tag_set" : {
+        "name" : "Sentence labels",
+        "description" : null,
+        "language" : null,
+        "tags" : [ ],
+        "create_tag" : false
+      },
+      "uiName" : "Label",
+      "type" : "uima.cas.String",
+      "enabled" : true,
+      "visible" : true,
+      "include_in_hover" : false,
+      "required" : false,
+      "remember" : false,
+      "hideUnconstraintFeature" : false,
+      "description" : "Sentence label",
+      "project_name" : "Sentences_Annotation_v2",
+      "multi_value_mode" : "NONE",
+      "link_mode" : "NONE",
+      "link_type_name" : null,
+      "link_type_role_feature_name" : null,
+      "link_type_target_feature_name" : null,
+      "traits" : "{\"multipleRows\":false,\"dynamicSize\":false,\"collapsedRows\":1,\"expandedRows\":1,\"editorType\":\"AUTO\",\"keyBindings\":[]}",
+      "curatable" : true,
+      "rank" : 0
+    } ],
+    "uiName" : "Sentence Label",
+    "type" : "span",
+    "description" : null,
+    "enabled" : false,
+    "built_in" : false,
+    "readonly" : false,
+    "attach_type" : null,
+    "attach_feature" : null,
+    "allow_stacking" : true,
+    "cross_sentence" : false,
+    "show_hover" : true,
+    "anchoring_mode" : "SENTENCES",
+    "overlap_mode" : "STACKING_ONLY",
+    "validation_mode" : "ALWAYS",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : false,
+    "project_name" : "Sentences_Annotation_v2",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : "{\"coloringRules\":{\"rules\":[{\"color\":\"#ff0101\",\"pattern\":\"T1_true\"},{\"color\":\"#ff0000\",\"pattern\":\"T2_true\"},{\"color\":\"#ff0000\",\"pattern\":\"T3_true\"},{\"color\":\"#ff0000\",\"pattern\":\"T4_true\"},{\"color\":\"#dd7b29\",\"pattern\":\"T1_uncertain\"},{\"color\":\"#dd7b29\",\"pattern\":\"T2_uncertain\"},{\"color\":\"#dd7b29\",\"pattern\":\"T3_uncertain\"},{\"color\":\"#dd7b29\",\"pattern\":\"T4_uncertain\"}]}}"
+  }, {
+    "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "features" : [ ],
+    "uiName" : "Token",
+    "type" : "span",
+    "description" : null,
+    "enabled" : false,
+    "built_in" : true,
+    "readonly" : true,
+    "attach_type" : null,
+    "attach_feature" : null,
+    "allow_stacking" : false,
+    "cross_sentence" : false,
+    "show_hover" : true,
+    "anchoring_mode" : "CHARACTERS",
+    "overlap_mode" : "NO_OVERLAP",
+    "validation_mode" : "NEVER",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : false,
+    "project_name" : "Sentences_Annotation_v2",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : null
+  } ],
+  "disableExport" : false,
+  "script_direction" : "LTR",
+  "created" : 1714407124424,
+  "updated" : 1715583700183,
+  "anonymous_curation" : false,
+  "default-preferences" : [ ],
+  "knowledge_bases" : [ {
+    "additional_matching_properties" : [ ],
+    "base_prefix" : "http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#",
+    "class_iri" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "default_dataset_iri" : null,
+    "default_language" : "en",
+    "deprecation_property_iri" : "http://www.w3.org/2002/07/owl#deprecated",
+    "description_iri" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "enabled" : true,
+    "full_text_search_iri" : "http://www.openrdf.org/contrib/lucenesail#matches",
+    "id" : "pid-7-kbid-",
+    "label_iri" : "http://www.w3.org/2000/01/rdf-schema#label",
+    "max_results" : 1000,
+    "name" : "Ambiguity types",
+    "property_description_iri" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "property_label_iri" : "http://www.w3.org/2000/01/rdf-schema#label",
+    "property_type_iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "read_only" : false,
+    "reification" : "NONE",
+    "remote_url" : null,
+    "root_concepts" : [ ],
+    "sub_Property_IRI" : "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+    "subclass_iri" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+    "support_concept_linking" : true,
+    "traits" : "{\"authentication\":null}",
+    "type" : "LOCAL",
+    "type_iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "use_fuzzy" : false
+  } ],
+  "external_search" : [ ],
+  "curation_workflow" : {
+    "id" : 6,
+    "project" : {
+      "id" : 7,
+      "name" : "Sentences_Annotation_v2",
+      "slug" : "sentences_annotation_v2",
+      "description" : "second edition.\r\n\r\n1. delete all uncertain label\r\n2. correct all controversial sentence with new standard",
+      "mode" : "annotation",
+      "version" : 1,
+      "disableExport" : false,
+      "scriptDirection" : "LTR",
+      "created" : 1714407124424,
+      "updated" : 1715583700183,
+      "state" : "ANNOTATION_IN_PROGRESS",
+      "anonymousCuration" : false
+    },
+    "mergeStrategy" : "completeAgreementNonStacked",
+    "mergeStrategyTraits" : null
+  },
+  "project_users" : [ ],
+  "recommenders" : [ {
+    "alwaysSelected" : false,
+    "enabled" : true,
+    "feature" : "label",
+    "layerName" : "custom.SentenceLabel",
+    "maxRecommendations" : 3,
+    "name" : "Sentence label recommender",
+    "skipEvaluation" : false,
+    "statesIgnoredForTraining" : [ ],
+    "threshold" : 0.0,
+    "tool" : "de.tudarmstadt.ukp.inception.recommendation.imls.opennlp.doccat.OpenNlpDoccatRecommenderFactory",
+    "traits" : null
+  } ],
+  "learning_records" : [ {
+    "action" : "REJECTED",
+    "begin" : 131,
+    "begin2" : -1,
+    "document_name" : "1_Hospital_Workflow.txt",
+    "end" : 280,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "<NO_CATEGORY>",
+    "layer_name" : "custom.SentenceLabel",
+    "text" : "The first one is a referee from the newly created quality assurance department while the second one represents the managing director of the hospital.",
+    "timestamp" : 1714408374752,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "admin"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 281,
+    "begin2" : -1,
+    "document_name" : "1_Hospital_Workflow.txt",
+    "end" : 349,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "T1_false",
+    "layer_name" : "custom.SentenceLabel",
+    "text" : "Both roles execute all of their tasks independently from each other.",
+    "timestamp" : 1714408402452,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "admin"
+  }, {
+    "action" : "REJECTED",
+    "begin" : 350,
+    "begin2" : -1,
+    "document_name" : "1_Hospital_Workflow.txt",
+    "end" : 432,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "T4_false",
+    "layer_name" : "custom.SentenceLabel",
+    "text" : "The referee starts a new case regarding a certain doctor by interviewing patients.",
+    "timestamp" : 1714926357160,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "admin"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 433,
+    "begin2" : -1,
+    "document_name" : "1_Hospital_Workflow.txt",
+    "end" : 536,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "T1_false",
+    "layer_name" : "custom.SentenceLabel",
+    "text" : "Since a patient interview workflow is already established, it is simply integrated in the new workflow.",
+    "timestamp" : 1714926588414,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "admin"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 0,
+    "begin2" : -1,
+    "document_name" : "1_Hospital_Workflow.txt",
+    "end" : 66,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "T3_false",
+    "layer_name" : "custom.SentenceLabel",
+    "text" : "A hospital wants to establish a rating workflow for their doctors.",
+    "timestamp" : 1714928537418,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "admin"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 0,
+    "begin2" : -1,
+    "document_name" : "1_Hospital_Workflow.txt",
+    "end" : 66,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "T3_false",
+    "layer_name" : "custom.SentenceLabel",
+    "text" : "A hospital wants to establish a rating workflow for their doctors.",
+    "timestamp" : 1714928539823,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "admin"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 0,
+    "begin2" : -1,
+    "document_name" : "1_Hospital_Workflow.txt",
+    "end" : 66,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "T1_false",
+    "layer_name" : "custom.SentenceLabel",
+    "text" : "A hospital wants to establish a rating workflow for their doctors.",
+    "timestamp" : 1714928544078,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "admin"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 0,
+    "begin2" : -1,
+    "document_name" : "1_Hospital_Workflow.txt",
+    "end" : 66,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "T1_false",
+    "layer_name" : "custom.SentenceLabel",
+    "text" : "A hospital wants to establish a rating workflow for their doctors.",
+    "timestamp" : 1714928605682,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "admin"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 0,
+    "begin2" : -1,
+    "document_name" : "1_Hospital_Workflow.txt",
+    "end" : 66,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "T3_false",
+    "layer_name" : "custom.SentenceLabel",
+    "text" : "A hospital wants to establish a rating workflow for their doctors.",
+    "timestamp" : 1714928749865,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "admin"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 0,
+    "begin2" : -1,
+    "document_name" : "1_Hospital_Workflow.txt",
+    "end" : 66,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "T3_false",
+    "layer_name" : "custom.SentenceLabel",
+    "text" : "A hospital wants to establish a rating workflow for their doctors.",
+    "timestamp" : 1714928756002,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "admin"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 0,
+    "begin2" : -1,
+    "document_name" : "1_Hospital_Workflow.txt",
+    "end" : 66,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "T3_false",
+    "layer_name" : "custom.SentenceLabel",
+    "text" : "A hospital wants to establish a rating workflow for their doctors.",
+    "timestamp" : 1714928816668,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "admin"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 0,
+    "begin2" : -1,
+    "document_name" : "1_Hospital_Workflow.txt",
+    "end" : 66,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "T3_false",
+    "layer_name" : "custom.SentenceLabel",
+    "text" : "A hospital wants to establish a rating workflow for their doctors.",
+    "timestamp" : 1714928876573,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "admin"
+  }, {
+    "action" : "ACCEPTED",
+    "begin" : 0,
+    "begin2" : -1,
+    "document_name" : "1_Hospital_Workflow.txt",
+    "end" : 66,
+    "end2" : -1,
+    "feature" : "label",
+    "label" : "T3_false",
+    "layer_name" : "custom.SentenceLabel",
+    "text" : "A hospital wants to establish a rating workflow for their doctors.",
+    "timestamp" : 1714928999029,
+    "trigger" : "MAIN_EDITOR",
+    "type" : "SPAN",
+    "user" : "admin"
+  } ],
+  "gazeteers" : [ ],
+  "workload_manager" : {
+    "traits" : null,
+    "type" : "matrix"
+  },
+  "user-preferences" : [ {
+    "name" : "annotation/layers",
+    "traits" : "{\"layerColoringStrategy\":{\"32\":\"GRAY\",\"33\":\"STATIC_PASTELLE\"},\"readonlyLayerColoringStrategy\":\"LEGACY\",\"hiddenLayers\":[]}",
+    "user" : "admin"
+  }, {
+    "name" : "annotation/layout",
+    "traits" : "{\"sidebarSizeLeft\":20,\"sidebarSizeRight\":20}",
+    "user" : "admin"
+  }, {
+    "name" : "client-side/annotation/annotation-browser-sidebar",
+    "traits" : "{\"mode\":\"by-label\",\"sortByScore\":true,\"recommendationsFirst\":false}",
+    "user" : "admin"
+  }, {
+    "name" : "annotation/left-sidebar",
+    "traits" : "{\"selectedTab\":\"statisticsAnnotationSidebarFactory\",\"expanded\":false}",
+    "user" : "admin"
+  } ]
+}

@@ -1,0 +1,18 @@
+
+Customer logs in to the webpage portal and choose the item to order and checks out.
+
+If the customer fails to check out the order within the specified time, the webpage will timeout and be refreshed.
+
+After receiving an online order from the customer, system must make sure that the order is confirmed by staff after checking they have all the ingredients available to make the pizza.
+
+Staff starts preparing the pizza after the confirmation. Two scenarios can happen at this point, if the pizza is burnt while cooking, it is thrown out OR if the pizza is cooked, the system must sent notification to customer to pick up the order.
+
+Once pizza is prepared, the system must make sure that the customer shows up within a specific time and completes the payment when picking up their order.
+
+If the system fails to complete the payment, the staff should manually take the payment.
+
+All payments must be completed before the customer is allowed to pick up their order.
+
+The system must make sure that each order is associated with a unique identifier to help with tracking and processing.
+
+After the payment is successfully completed, the customer is allowed to pick up their order from the counter.

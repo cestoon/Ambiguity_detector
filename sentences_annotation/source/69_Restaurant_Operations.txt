@@ -1,0 +1,27 @@
+After going live with the application, the restaurant needs to provide a new daily menu and the schedule of the day’s opening hours in the application.
+The restaurant shall ensure (within 40 minutes) that food orders placed by customers are prepared on time and confirm if there are any special requirements such as flavour notes, and ensure the quality and safety of the food in the restaurant.
+The restaurant should regularly review and respond to customer feedback through the app’s review function to ensure consistent service quality to enhance customer satisfaction.
+
+Rules for Customer Business:
+Customers shall be able to view the menu of each restaurant through the Application while their communication device (computer or mobile phone) is connected to the Internet, and shall be able to place orders and make payments conveniently.
+It is the customer’s responsibility to provide accurate delivery information and payment details to ensure a smooth order process.
+The customer has the right to provide feedback on the order and delivery service after finishing the meal.
+
+Business rules for application support:
+Application Support is required to ensure the stability and user-friendliness of the application and regular updates to fix bugs and introduce new features.
+Application Support is responsible for maintaining real-time, accurate restaurant information, including menus and hours of operation.
+Application Support shall ensure efficient delivery of customer orders to restaurants and coordinate food delivery.
+
+Business Rules for Food Distributors
+The Food Distributor shall ensure that food is picked up from the restaurant on time and delivered to customers safely and securely.
+
+Example analysis of real-time behaviour in the model:
+The core consideration of the system design is to improve the operational efficiency of the restaurant: through automated order processing and menu management systems, reduce manual operations, lower management costs, and improve the operational efficiency of the restaurant. To achieve this, all parties in the system must adhere to a set of business rules, taking into account the time constraints of real-time behaviour.
+
+Restaurant business rules and order confirmation time model: A restaurant’s order taking system must confirm orders within 10 minutes of receiving them to ensure that customers receive timely feedback. This real-time behaviour requires the restaurant management system to be able to process orders efficiently and update menu and business information in real-time.
+
+Customer business rules and restaurant food preparation notification time model: After a customer places an order through the application, the system will reasonably specify a short order completion time based on the time of the gud order and the delivery location, e.g., within 40 minutes, a notification that the restaurant’s food preparation has been completed and that the order has moved on to the next segment —delivery person for delivery. This requires the restaurant to follow an efficient process for food preparation, and the app needs to provide real-time order status updates to the customer.
+
+Business Rules and Delivery Confirmation Time Model for Application Support: For the application support team, firstly, it needs to ensure that the order is delivered efficiently from the customer to the restaurant and the food delivery is completed within 30 minutes. Secondly, once the delivery is complete, the customer should provide feedback within 5 minutes of receiving the meal. The above real-time behavioural model highlights the role of the application in maintaining order accuracy and timeliness and the importance in collecting customer feedback.
+
+Business Rules and Order Delivery Efficiency Models for Food Delivery Clerks Food delivery clerks not only need to ensure the safe delivery of food, but also to fulfil the delivery within a limited time window. This requires the distribution system to have efficient logistics planning capabilities to meet real-time.

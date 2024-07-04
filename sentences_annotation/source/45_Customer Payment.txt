@@ -1,0 +1,4 @@
+
+When a customer puts an item on the conveyor belt, the cashier receives the item (after a certain timeframe), and they must scan the item. When an item has been scanned, the packer must bag the items, either in a paper bag, which excludes the plastic bag or the other way around.
+
+Once all items have been scanned, the customer is able to pay with cash or card. Each payment method excludes the other method and additionally excludes new items being put on the belt. When payment is finished, the cashier is able to give the customer a receipt. Finally, when the customer has paid with either cash or card, and the packer has bagged all items in either a plastic or paper bag, the customer must grab the bags and leave.

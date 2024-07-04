@@ -1,0 +1,8 @@
+Each of the code changes must address new features or fixes of existing bugs, to be considered correct for proposal.
+It is important for contributors to engage in discussions, to think through ideas and make sure there is an alignment with the project’s vision and goals before implementing the discussed topic.
+Formal documentation requirements and project guidelines must be followed when contribution is made.
+Each code change must be initiated only after a proposal is approved, and must involve code and performing local test to check whether the change is valid and compatible with existing code base.
+Pull requests must be created only if the implementation is complete, and documented, addressing the connected issue.
+Each of the opened pull request are subject to discussion and review focusing on functionality, readability, standard compliance, and overall impact, allowing for feedback and ensuring iterative development based on feedback or suggestions.
+Automated testing must be passed for quality, functionality and compatibility, both locally and in the GitHub environment.
+A merge to base branch can be executed only after successful tests and approval by a code owner with a specific access.
